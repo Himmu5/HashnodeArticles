@@ -29,15 +29,24 @@ REST Apis is the most common API type that is used for fetching data. It provide
 * **GET**: This method is used to get the data from the server. This method is specially used to get the data if you are working with REST APIs. but can't send data in the body of the GET method. In React we use a popular library called Axios. It makes it easy and convenient to call an API.
     
     ```javascript
-    import axios from "axios";
+    const axios = require('axios'); // Import the axios library
     
-    export function fetchQuoteRandom() {                                  return axios.get("https://api.quotable.io/random").then((res)=> {
-        return res.data;
+    // Define the URL you want to make a GET request to
+    const apiUrl = 'https://api.example.com/data';
+    
+    // Use axios to make the GET request
+    axios.get(apiUrl)
+      .then(function (response) {
+        // Handle a successful response here
+        console.log('Data retrieved successfully:', response.data);
+      })
+      .catch(function (error) {
+        // Handle any errors that occur during the request
+        console.error('Error:', error);
       });
-    }
     ```
     
-    here we are calling the API using the GET method. It is a Quote fetching API it will return a random Quote object from the database. This fetchQuoteRandom method returns the promise of the JSON data.
+    here we are calling the API using the GET method. It is a Quote fetching API that will return a random Quote object from the database. This fetchQuoteRandom method returns the promise of the JSON data.
     
 * **POST**: The post method is used to create some data in the database. We have to send data that need to be created on the database generally It was present in the body of the method.
     
