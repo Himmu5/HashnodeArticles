@@ -6,6 +6,7 @@ datePublished: Sat Feb 17 2024 16:32:33 GMT+0000 (Coordinated Universal Time)
 cuid: clsqarjfm000009ib1qy63mfh
 slug: day-2-variables-and-assignments-in-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708180070077/0213737b-cc1a-42f9-92bb-ff3e850c3c0d.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1708187827813/8fdee516-8169-4789-b7d3-b9279bdfd94b.png
 tags: python, learninpublic, scaleup
 
 ---
