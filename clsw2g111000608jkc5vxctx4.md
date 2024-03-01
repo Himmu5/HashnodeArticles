@@ -1,10 +1,10 @@
 ---
-title: "Functional Programming in Python"
+title: "Day 6: Functional Programming in Python"
 seoTitle: "Functional Programming in Python"
 seoDescription: "Unlocking the Power of Functional Paradigms: A Practical Guide to Pythonic Functional Programming"
 datePublished: Wed Feb 21 2024 17:26:16 GMT+0000 (Coordinated Universal Time)
 cuid: clsw2g111000608jkc5vxctx4
-slug: functional-programming-in-python
+slug: day-6-functional-programming-in-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708534012102/f5b504aa-5d67-4c9c-83c3-04ad704c1d3e.png
 tags: python, learning, functional-programming
 
