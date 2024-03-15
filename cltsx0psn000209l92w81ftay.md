@@ -1,7 +1,7 @@
 ---
 title: "Day 29: Web Development Frameworks (FastAPI)"
 seoTitle: "Web Development Frameworks (FastAP)"
-seoDescription: "In this blog, we delve into Python's web development frameworks as part of my ongoing Python learning journey. "
+seoDescription: "In this blog, we delve into Python's web development frameworks as part of my ongoing Python learning journey."
 datePublished: Fri Mar 15 2024 17:10:47 GMT+0000 (Coordinated Universal Time)
 cuid: cltsx0psn000209l92w81ftay
 slug: day-29-web-development-frameworks-fastapi
