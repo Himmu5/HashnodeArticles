@@ -27,7 +27,7 @@ Let’s go on a Python-powered food tour of data structures with some tasty exam
 ### 🐍 Python Code:
 
 ```python
-pythonCopyEditplaylist = ["Bohemian Rhapsody", "Smells Like Teen Spirit", "Wonderwall"]
+playlist = ["Bohemian Rhapsody", "Smells Like Teen Spirit", "Wonderwall"]
 print(playlist[1])  # Output: Smells Like Teen Spirit
 ```
 
@@ -50,7 +50,7 @@ print(playlist[1])  # Output: Smells Like Teen Spirit
 ### 🐍 Example:
 
 ```python
-pythonCopyEditfruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry"]
 fruits.append("date")
 fruits.remove("banana")
 print(fruits)  # ['apple', 'cherry', 'date']
@@ -61,7 +61,7 @@ print(fruits)  # ['apple', 'cherry', 'date']
 Comparing lists in Python isn’t just a logic check — it’s basically a soap opera.
 
 ```python
-pythonCopyEditlist1 = [1, 2, 3]
+list1 = [1, 2, 3]
 list2 = [1, 2, 3]
 list3 = [3, 2, 1]
 ```
@@ -81,7 +81,7 @@ Yep, Python lets you do *list Tinder swipes*. It compares element by element lik
 Also:
 
 ```python
-pythonCopyEditlist4 = list1
+list4 = list1
 list1 is list4  # True – true soulmates (same memory)
 ```
 
@@ -101,7 +101,7 @@ Tuples are **immutable**, so they don’t have many methods—only two, in fact.
 ### 🐍 Example:
 
 ```python
-pythonCopyEditt = (1, 2, 3, 2, 4)
+t = (1, 2, 3, 2, 4)
 print(t.count(2))   # 2
 print(t.index(3))   # 2
 ```
