@@ -19,7 +19,7 @@ A string in Python is just a sequence of characters, wrapped in single `'` or do
 
 ```python
 name = "Himanshu"
-age  = '24' 
+age  = '24'
 ```
 
 ### Strings Can Be:
@@ -73,7 +73,7 @@ print(name.upper())  # DRAMAQUEEN
 Can’t let go of the past? `.find()` helps you track down characters.
 
 ```python
-pythonCopyEditquote = "Where is the bug?"
+quote = "Where is the bug?"
 print(quote.find("bug"))  # 12
 ```
 
@@ -84,7 +84,7 @@ If it doesn’t find anything? It just returns `-1` and silently judges you.
 Cleans up those unwanted whitespaces. Because who needs baggage?
 
 ```python
-pythonCopyEditmessy = "   fix me pls   "
+messy = "   fix me pls   "
 print(messy.strip())  # "fix me pls"
 ```
 
@@ -93,7 +93,7 @@ print(messy.strip())  # "fix me pls"
 Perfect for rewriting history.
 
 ```python
-pythonCopyEdittea = "I love Java"
+tea = "I love Java"
 print(tea.replace("Java", "Python"))  # "I love Python"
 ```
 
@@ -106,7 +106,7 @@ Operators in Python are like the chaotic roommates in a sitcom: always meddling 
 These operators love crunching numbers and doing the mathy stuff.
 
 ```python
-pythonCopyEdita + b   # Addition
+a + b   # Addition
 a - b   # Subtraction
 a * b   # Multiplication
 a / b   # Division
@@ -122,7 +122,7 @@ a // b  # Floor Division
 These operators live for drama. They compare everything and spill the truth.
 
 ```python
-pythonCopyEdita == b   # Equal
+a == b   # Equal
 a != b   # Not Equal
 a > b    # Greater than
 a < b    # Less than
@@ -137,7 +137,7 @@ a <= b   # Less than or equal to
 These operators are about commitment. They assign values and sometimes get extra clingy.
 
 ```python
-pythonCopyEdita = 10      # Assign
+a = 10      # Assign
 a += 5      # a = a + 5
 a -= 3      # a = a - 3
 a *= 2      # a = a * 2
@@ -154,7 +154,7 @@ a //= 2     # a = a // 2
 They’re all about *truth*, *lies*, and everything in between.
 
 ```python
-pythonCopyEdita and b   # True if both are True
+a and b   # True if both are True
 a or b    # True if at least one is True
 not a     # Flips the truth
 ```
@@ -166,7 +166,7 @@ not a     # Flips the truth
 They work at the binary level. Basically, they speak in 0s and 1s and are always misunderstood.
 
 ```python
-pythonCopyEdita & b     # AND
+a & b     # AND
 a | b     # OR
 a ^ b     # XOR
 ~a        # NOT
@@ -181,7 +181,7 @@ a >> 2    # Right Shift
 They don’t ask if things are equal — they ask if they’re the **same exact thing** in memory.
 
 ```python
-pythonCopyEdita is b       # True if a and b point to same object
+a is b       # True if a and b point to same object
 a is not b   # True if they don't
 ```
 
@@ -192,7 +192,7 @@ a is not b   # True if they don't
 They check if something is part of a group. Think bouncers at a string or list party.
 
 ```python
-pythonCopyEdit"a" in "apple"          # True
+"a" in "apple"          # True
 10 not in [1, 2, 3]     # True
 ```
 
