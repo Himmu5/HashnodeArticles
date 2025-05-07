@@ -28,7 +28,7 @@ A **tuple** is an **ordered**, **immutable** collection of elements.
 Here's a quick comparison:
 
 ```python
-pythonCopyEdit # A list
+# A list
 my_list = [1, 2, 3]
 my_list.append(4)  # totally allowed!
 
@@ -45,7 +45,7 @@ Python being Python, tuples come with some cool tricks:
     
 
 ```python
-pythonCopyEditperson = ('Alice', 30)
+person = ('Alice', 30)
 name, age = person  # assigns 'Alice' to name and 30 to age
 ```
 
@@ -53,7 +53,7 @@ name, age = person  # assigns 'Alice' to name and 30 to age
     
 
 ```python
-pythonCopyEditx, y = 5, 10
+x, y = 5, 10
 x, y = y, x
 print(x, y)  # Output: 10 5
 ```
@@ -62,7 +62,7 @@ print(x, y)  # Output: 10 5
     
 
 ```python
-pythonCopyEditdef fun(*args):
+def fun(*args):
     print(args)
 
 fun(1, 2, 3)  # Output: (1, 2, 3)
