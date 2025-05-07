@@ -23,7 +23,7 @@ So here it is. I'm coming clean:
 Let’s rewind to the good old days:
 
 ```python
-pythonCopyEditgroceries = ["milk", "eggs", "bread", "kale (ew)"]
+groceries = ["milk", "eggs", "bread", "kale (ew)"]
 ```
 
 Simple. Predictable. Safe.
@@ -31,14 +31,14 @@ Simple. Predictable. Safe.
 Until the day I needed to find something.
 
 ```python
-pythonCopyEditif "milk" in groceries:
+if "milk" in groceries:
     index = groceries.index("milk")
 ```
 
 Suddenly, everything felt... slow. And god forbid I wanted to know *how much milk*.
 
 ```python
-pythonCopyEditgroceries = ["milk", "milk", "milk", "sadness", "kale"]
+groceries = ["milk", "milk", "milk", "sadness", "kale"]
 ```
 
 Now it's just chaos.
@@ -48,7 +48,7 @@ Now it's just chaos.
 ### 1\. Constant Searching
 
 ```python
-pythonCopyEditif item in my_list:
+if item in my_list:
 ```
 
 Why does it feel like I’m doing linear search like it's 1999?
@@ -56,7 +56,7 @@ Why does it feel like I’m doing linear search like it's 1999?
 ### 2\. Arbitrary Indexing
 
 ```python
-pythonCopyEdituser[0] = "Alice"
+user[0] = "Alice"
 user[1] = 27
 user[2] = "New York"
 ```
@@ -66,7 +66,7 @@ Wait... what does `user[2]` mean again? Oh right—*mystery location!*
 ### 3\. Relationship Anxiety
 
 ```python
-pythonCopyEditprint(my_list[5])
+print(my_list[5])
 ```
 
 Oops. Out-of-range. Again. Classic List.
@@ -78,7 +78,7 @@ Oops. Out-of-range. Again. Classic List.
 Then *they* showed up.
 
 ```python
-pythonCopyEdituser = {
+user = {
     "name": "Alice",
     "age": 27,
     "location": "New York"
@@ -96,19 +96,19 @@ Everything is labeled. Organized. Beautiful.
 Need to update a value?
 
 ```python
-pythonCopyEdituser["location"] = "San Francisco"
+user["location"] = "San Francisco"
 ```
 
 Want to add something new?
 
 ```python
-pythonCopyEdituser["favorite_snack"] = "dark chocolate"
+user["favorite_snack"] = "dark chocolate"
 ```
 
 Want to loop through stuff without needing a `range(len(...))` monstrosity?
 
 ```python
-pythonCopyEditfor key, value in user.items():
+for key, value in user.items():
     print(f"{key}: {value}")
 ```
 
@@ -121,7 +121,7 @@ I mean... come on. That’s poetry.
 Sure, we still talk. Lists are great when order matters, or when I need to keep track of many similar things—like a group of people who all love kale (gross).
 
 ```python
-pythonCopyEditnames = ["Alice", "Bob", "Charlie"]
+names = ["Alice", "Bob", "Charlie"]
 ```
 
 But for anything complex, I need keys. I need structure. I need a Dict.
