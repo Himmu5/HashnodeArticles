@@ -22,14 +22,14 @@ You watch an episode → it ends → you watch the next one → it ends → repe
 In Python:
 
 ```python
-pythonCopyEditfor episode in range(1, 6):
+for episode in range(1, 6):
     print(f"Watching episode {episode}")
 ```
 
 #### Output:
 
 ```python
-nginxCopyEditWatching episode 1
+Watching episode 1
 Watching episode 2
 Watching episode 3
 Watching episode 4
@@ -45,7 +45,7 @@ Watching episode 5
 Use it when you **know** how many times you want to loop — like when you're counting sheep.
 
 ```python
-pythonCopyEditfor sheep in range(1, 4):
+for sheep in range(1, 4):
     print(f"🐑 Counting sheep #{sheep}")
 ```
 
@@ -58,7 +58,7 @@ pythonCopyEditfor sheep in range(1, 4):
 The `while` loop is the wildcard. It keeps running **until the condition is false** — or your laptop melts.
 
 ```python
-pythonCopyEditenergy = 3
+energy = 3
 
 while energy > 0:
     print("Still coding...")
@@ -72,14 +72,14 @@ while energy > 0:
 ## ⚠️ Infinite Loop Trap (a.k.a. Python’s Escape Room)
 
 ```python
-pythonCopyEditwhile True:
+while True:
     print("Help! I'm stuck!")
 ```
 
 #### Output:
 
 ```python
-rustCopyEditHelp! I'm stuck!
+Help! I'm stuck!
 Help! I'm stuck!
 Help! I'm stuck!
 ...forever 😵
@@ -91,7 +91,7 @@ Help! I'm stuck!
     
 
 ```python
-pythonCopyEditwhile True:
+while True:
     print("Looping...")
     break  # 🛑 Pull the emergency brake!
 ```
@@ -105,7 +105,7 @@ pythonCopyEditwhile True:
 Want to skip an iteration? Use `continue`.
 
 ```python
-pythonCopyEditfor i in range(5):
+for i in range(5):
     if i == 2:
         continue  # skip this iteration
     print(i)
@@ -114,7 +114,7 @@ pythonCopyEditfor i in range(5):
 #### Output:
 
 ```python
-CopyEdit0
+0
 1
 3
 4
@@ -127,7 +127,7 @@ CopyEdit0
 ## 💀 Common Loop Crimes
 
 ```python
-pythonCopyEditcount = 1
+count = 1
 while count != 10:
     print(count)
     # forgot to update count 😱
@@ -143,7 +143,7 @@ while count != 10:
 > Nested loops are like onions — they make you cry.
 
 ```python
-pythonCopyEditfor i in range(3):
+for i in range(3):
     for j in range(3):
         print(f"i: {i}, j: {j}")
 ```
